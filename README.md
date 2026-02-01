@@ -9,6 +9,7 @@ In order to execute this the only sotware and libraries needed are python 3.7, s
 On execution the user can set command line arguemnts to set specific simulation parameters i.e. 
 python3 main.py
 *--size_array* followed by a positive interger number sets the size of the array to be sorted - defaults to 50, as described in the paper
+
 *--num_iterations* followed by a positive integer number (ideally a multiple of two), determines the number of single runs performed before the final result - defaults to 32, as described in the paper
 *--dynamic_time_warping* if set, it runs the simulation using Dynamic Time Warping, if not set, the simulation will use Linear Sum Assignment
 *--kendall_tau* if set, the distance metric to calculate the similarity between intermediate states is set to Kendall Tau Distance, else the dinstance metric is Spearman's Rank
